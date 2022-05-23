@@ -1,0 +1,37 @@
+
+Steps to Create Project:
+
+1.File->New->Maven Project
+
+2.Give Artifact->Package->Next
+
+3.Select Dependencies
+	3.1: junit 
+	3.2: javax.servlet
+	3.3: spring-core
+	3.4: spring-context
+	3.5: spring-jdbc
+	3.6: ojdbc8
+
+4.Database class      : oracle.jdbc.driver.OracleDriver
+
+5.Database Connection : jdbc:oracle:thin:@localhost:1521:xe
+
+6.Username	      : System
+
+7.password 	      : kabi
+
+8.Login Cretentials :
+	
+	8.1 username : kabilan
+	8.2 password : ice
+
+9.Techinical Approach
+	Front end :- HTML,CSS,JavaScript
+	Back end  :- Oracle Database
+
+
+
+   
+   	
+

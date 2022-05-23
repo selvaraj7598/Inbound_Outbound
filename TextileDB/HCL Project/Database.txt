@@ -1,0 +1,50 @@
+----------------------------------DATABASE CONFIGURATION----------------------------------
+In our Inbound Outbound App we are using Orcle database
+
+
+step 1 Download my sql installer and install neccessary software that are required by the app which are 
+
+Mysql Server here we have used 8.0.29 version of  MySql Server 
+
+ Version 8.0.29 of MySql connector and also the 
+
+8.0.29 version of MySql Workbench
+
+
+
+Step 2 Create a schema using the query Create database Employee-Management-System
+
+Step 3 Create a table with the required columns by using the create table query as below
+
+create table employee( Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,first_name varchar(45) NOT NULL,last_name varchar(45) NOT NULL,email_id varchar(60) NOT NULL);
+
+
+
+Step4  To link the database with the application program we add the following properties in the application.properties file of our Spring boot application
+
+server.port=8081--> its the server port number on which the application runs
+
+
+
+DriverManager.getConnection = jdbc:oracle:thin:@localhost:1521:xe  --> its the url which links  the application with the user's database 
+
+
+
+DriverManager.getConnection.username= System --> Its the username of the database connection that the user is using in this application
+
+
+
+
+DriverManager.getConnection.password= kabi --> its the password of the user's database connection required to let application access the database
+
+
+
+
+  
+
+
+
+
+
+
+
